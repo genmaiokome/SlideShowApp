@@ -7,6 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		617E2946255BC51A000789B2 /* キーボード.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 617E2942255BC51A000789B2 /* キーボード.jpeg */; };
+		617E2947255BC51A000789B2 /* ギター.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 617E2943255BC51A000789B2 /* ギター.jpeg */; };
+		617E2948255BC51A000789B2 /* ドラム.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 617E2944255BC51A000789B2 /* ドラム.jpeg */; };
+		617E2949255BC51A000789B2 /* ベース.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 617E2945255BC51A000789B2 /* ベース.jpeg */; };
 		61B3C635252AB86900531914 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 61B3C634252AB86900531914 /* AppDelegate.swift */; };
 		61B3C637252AB86900531914 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 61B3C636252AB86900531914 /* SceneDelegate.swift */; };
 		61B3C639252AB86900531914 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 61B3C638252AB86900531914 /* ViewController.swift */; };
@@ -14,13 +18,13 @@
 		61B3C63E252AB86B00531914 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 61B3C63D252AB86B00531914 /* Assets.xcassets */; };
 		61B3C641252AB86B00531914 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 61B3C63F252AB86B00531914 /* LaunchScreen.storyboard */; };
 		61B3C64B252ABAB000531914 /* PictureViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 61B3C64A252ABAB000531914 /* PictureViewController.swift */; };
-		61B3C652252ADD1F00531914 /* ドラム.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 61B3C64E252ADD1F00531914 /* ドラム.jpeg */; };
-		61B3C653252ADD1F00531914 /* ギター.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 61B3C64F252ADD1F00531914 /* ギター.jpeg */; };
-		61B3C654252ADD1F00531914 /* ベース.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 61B3C650252ADD1F00531914 /* ベース.jpeg */; };
-		61B3C655252ADD1F00531914 /* キーボード.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 61B3C651252ADD1F00531914 /* キーボード.jpeg */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		617E2942255BC51A000789B2 /* キーボード.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "キーボード.jpeg"; sourceTree = "<group>"; };
+		617E2943255BC51A000789B2 /* ギター.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "ギター.jpeg"; sourceTree = "<group>"; };
+		617E2944255BC51A000789B2 /* ドラム.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "ドラム.jpeg"; sourceTree = "<group>"; };
+		617E2945255BC51A000789B2 /* ベース.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "ベース.jpeg"; sourceTree = "<group>"; };
 		61B3C631252AB86900531914 /* slideshowApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = slideshowApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		61B3C634252AB86900531914 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		61B3C636252AB86900531914 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -30,10 +34,6 @@
 		61B3C640252AB86B00531914 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		61B3C642252AB86B00531914 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		61B3C64A252ABAB000531914 /* PictureViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PictureViewController.swift; sourceTree = "<group>"; };
-		61B3C64E252ADD1F00531914 /* ドラム.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = "ドラム.jpeg"; path = "../../../ファイル/ドラム.jpeg"; sourceTree = "<group>"; };
-		61B3C64F252ADD1F00531914 /* ギター.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = "ギター.jpeg"; path = "../../../ファイル/ギター.jpeg"; sourceTree = "<group>"; };
-		61B3C650252ADD1F00531914 /* ベース.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = "ベース.jpeg"; path = "../../../ファイル/ベース.jpeg"; sourceTree = "<group>"; };
-		61B3C651252ADD1F00531914 /* キーボード.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = "キーボード.jpeg"; path = "../../../ファイル/キーボード.jpeg"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -66,15 +66,15 @@
 		61B3C633252AB86900531914 /* slideshowApp */ = {
 			isa = PBXGroup;
 			children = (
-				61B3C651252ADD1F00531914 /* キーボード.jpeg */,
-				61B3C64F252ADD1F00531914 /* ギター.jpeg */,
-				61B3C64E252ADD1F00531914 /* ドラム.jpeg */,
-				61B3C650252ADD1F00531914 /* ベース.jpeg */,
+				617E2942255BC51A000789B2 /* キーボード.jpeg */,
+				617E2943255BC51A000789B2 /* ギター.jpeg */,
+				617E2944255BC51A000789B2 /* ドラム.jpeg */,
+				617E2945255BC51A000789B2 /* ベース.jpeg */,
+				61B3C63D252AB86B00531914 /* Assets.xcassets */,
 				61B3C634252AB86900531914 /* AppDelegate.swift */,
 				61B3C636252AB86900531914 /* SceneDelegate.swift */,
 				61B3C638252AB86900531914 /* ViewController.swift */,
 				61B3C63A252AB86900531914 /* Main.storyboard */,
-				61B3C63D252AB86B00531914 /* Assets.xcassets */,
 				61B3C63F252AB86B00531914 /* LaunchScreen.storyboard */,
 				61B3C642252AB86B00531914 /* Info.plist */,
 				61B3C64A252ABAB000531914 /* PictureViewController.swift */,
@@ -141,12 +141,12 @@
 			buildActionMask = 2147483647;
 			files = (
 				61B3C641252AB86B00531914 /* LaunchScreen.storyboard in Resources */,
-				61B3C653252ADD1F00531914 /* ギター.jpeg in Resources */,
+				617E2947255BC51A000789B2 /* ギター.jpeg in Resources */,
 				61B3C63E252AB86B00531914 /* Assets.xcassets in Resources */,
+				617E2946255BC51A000789B2 /* キーボード.jpeg in Resources */,
 				61B3C63C252AB86900531914 /* Main.storyboard in Resources */,
-				61B3C652252ADD1F00531914 /* ドラム.jpeg in Resources */,
-				61B3C654252ADD1F00531914 /* ベース.jpeg in Resources */,
-				61B3C655252ADD1F00531914 /* キーボード.jpeg in Resources */,
+				617E2948255BC51A000789B2 /* ドラム.jpeg in Resources */,
+				617E2949255BC51A000789B2 /* ベース.jpeg in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
